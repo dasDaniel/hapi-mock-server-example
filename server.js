@@ -18,6 +18,7 @@ const PORT = process.env.PORT || 7000;
     port: PORT,
     // define route defaults
     routes: {
+      cors: true,
       validate: {
         // assigning a failAction function here will make this
         //   the default handler for validation failures. That
